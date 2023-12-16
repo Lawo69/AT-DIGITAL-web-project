@@ -20,17 +20,6 @@
   --white: #fff;
 };
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-}
-
 .App {
   background-color: var(--white);
   height: 100vh;
