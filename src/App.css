@@ -1,38 +1,39 @@
+/* Global CSS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --primary-color: #6B3CC9; /* Used on CTAs and other necessary highlighting points on the design */
+  --secondary-color: #F28D35; /* Used when a different color is needed to show a contrast */
+  --analogous-color1: #6A44F2; /* Used in areas where mixed colors are needed */
+  --analogous-color2: #1CBDDD; /* Used in areas where mixed colors are needed */
+  --triadic-color: #52378C; /* Used in areas where mixed colors are needed */
+  --dark-color: #4DCA79; /* Used in areas where a dark background is needed */
+  --text-color: #2F2F2F; /* Used for body texts and title texts */
+  --text-color-light: #545A75; /* Used for placeholder texts and other areas where a light color is needed */
+  --text-color-subtle: #9C9991; /* Used for placeholder texts and other areas where a light color is needed */
+  --accent-color: #E2F2FE; /* Used for body texts */
+  --accent-color2: #FFF8E0; /* Used for body texts */
+  --error-color: #FF0335; /* Used for error codes */
+  --success-color: #5EB30B; /* Used for success messages and texts and incons */
+  --black: #000;
+  --white: #fff;
+};
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
 .App {
-  text-align: center;
+  background-color: #fefefe;
+  height: 100vh;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Global CSS end */
