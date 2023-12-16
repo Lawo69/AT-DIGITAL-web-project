@@ -1,15 +1,15 @@
 import React from 'react';
 import "./Home.css";
-import { CustomButton } from "../components/button/Button";
+import { CustomButton } from "../../components/button/Button";
 
 const clickLogic = () => {
   
 };
 
-export const Home = () => {
+export const HeroSection = () => {
   return (
     // Hero Section Start
-    <section className='container'>
+    <section className='hero-container'>
       <div className="hero-section">
         <div class="hero-content">
           <h1 class="header-title">
@@ -22,5 +22,6 @@ export const Home = () => {
       </div>
     </section>
     // Hero Section End
+      
   );
 }
