@@ -8,6 +8,7 @@ nav {
     top: 0;
     padding: 0px 100px;
     height: 77px;
+    z-index: 99;
 }
 
 nav .title img {
