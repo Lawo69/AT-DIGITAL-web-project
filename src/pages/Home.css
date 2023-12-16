@@ -1,0 +1,7 @@
+.hero-section {
+    height: 700px;
+    background-image: url(/public/img/cover-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  

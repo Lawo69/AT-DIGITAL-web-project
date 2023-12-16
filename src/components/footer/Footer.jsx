@@ -35,6 +35,7 @@ export const Footer = () => {
                         <li><a href="">Web & Mobile App Development</a></li>
                         <li><a href="">Data & Analytics</a></li>
                         <li><a href="">Google Marketing solutions</a></li>
+                        <li><a href="">Search Engine Optimization</a></li>
                     </ul>
                     </div>
                 </div>

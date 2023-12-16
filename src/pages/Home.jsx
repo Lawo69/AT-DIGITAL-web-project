@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import "./Home.css";
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <section className='hero-section'>
+      <div className=''></div>
+
+    </section>
   )
 }
