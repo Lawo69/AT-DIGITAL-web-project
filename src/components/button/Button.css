@@ -1,0 +1,27 @@
+button {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: auto;
+    height: 38px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+  
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
