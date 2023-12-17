@@ -102,7 +102,7 @@ hr {
         gap: 60px;
     }
     .footer {
-        height: 486px;
+        height: auto;
         padding: 25px 50px;
     }
     .col-2 {
@@ -115,21 +115,15 @@ hr {
 
 @media (max-width: 500px) {
     .footer {
-        height: 715px;
+        height: auto;
         padding: 25px 20px;
     }
     .col-2 {
         flex-direction: column;
     }
     hr {
-        width: auto;
+        width: 80%;
     }
-    .col-1 {
-        width: auto;
-    }
-}
-
-@media (max-width: 375px) {
     .col-1 {
         width: auto;
     }

@@ -6,7 +6,7 @@ const clickLogic = () => {
   
 };
 
-function ServiceSection() {
+export const ServiceSection = () => {
   return (
     <section className='service-container'>
         <div className="services">
@@ -38,5 +38,3 @@ function ServiceSection() {
     </section>
   )
 }
-
-export default ServiceSection;

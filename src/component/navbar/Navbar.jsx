@@ -2,7 +2,7 @@ import './Navbar.css';
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-function Navbar () {
+export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleNavItemClick = () => {
@@ -46,5 +46,3 @@ function Navbar () {
         </nav>
     );
 };
-
-export default Navbar;

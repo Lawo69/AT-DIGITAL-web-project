@@ -6,7 +6,7 @@ const clickLogic = () => {
   
 };
 
-function HeroSection() {
+export const HeroSection = () => {
   return (
     // Hero Section Start
     <section className='hero-container'>
@@ -24,5 +24,3 @@ function HeroSection() {
     // Hero Section End
   );
 }
-
-export default HeroSection;
