@@ -1,18 +1,18 @@
 import React from 'react';
 import './Footer.css';
 
-export const Footer = () => {
+function Footer() {
 
     return (
         <footer class="footer">
             <div class="row">
                 <div class="col-1">
-                <div class="logo">
-                    <img src="/img/logo.png" alt="Logo"/>
-                </div>
-                <div class="description">
-                    <p>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
-                </div>
+                    <div class="logo">
+                        <img src="/img/logo.png" alt="Logo"/>
+                    </div>
+                    <div class="description">
+                        <p>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
+                    </div>
                 </div>
 
                 <div class="col-2">
@@ -50,3 +50,5 @@ export const Footer = () => {
         </footer>
     );
 }
+
+export default Footer;

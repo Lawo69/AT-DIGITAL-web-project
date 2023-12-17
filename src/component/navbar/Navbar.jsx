@@ -2,7 +2,7 @@ import './Navbar.css';
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-export const Navbar = () => {
+function Navbar () {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleNavItemClick = () => {
@@ -11,13 +11,15 @@ export const Navbar = () => {
 
     return (
         <nav>
-            <Link to="/" className='title'>
-                <img src="/img/logo.png" alt="Logo" />
-            </Link>
-            <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
-                <span></span>
-                <span></span>
-                <span></span>
+            <div className="navbar">
+                <Link to="/" className='title'>
+                    <img src="/img/logo.png" alt="Logo" />
+                </Link>
+                <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
             <ul className={menuOpen ? "open" : ""}>
                 <li>
@@ -44,3 +46,5 @@ export const Navbar = () => {
         </nav>
     );
 };
+
+export default Navbar;

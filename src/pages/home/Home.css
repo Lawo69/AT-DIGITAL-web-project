@@ -43,11 +43,11 @@
     .hero-content {
         top: 500px;
         left: 0;
-        width: 100%;
-        height: 258px;
+        width: auto;
+        height: auto;
     }
     .header-title {
-        width: 688px;
+        width: auto;
     }
     .hero-container {
         height: 700px;
@@ -60,14 +60,31 @@
     }
     .hero-content {
         top: 290px;
-        left: 0;
-        width: 100%;
-        height: 294px;
+        height: 240px;
+        padding: 24px 20px 32px 20px;
     }
     .header-title {
         font-size: 36px;
         line-height: 36px;
-        width: 335px;
+        max-width: auto;
+    }
+    .hero-container {
+        height: 512px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-section {
+        height: 225px;
+    }
+    .hero-content {
+        top: 290px;
+        height: auto;
+    }
+    .header-title {
+        font-size: 36px;
+        line-height: 36px;
+        width: auto;
     }
     .hero-container {
         height: 512px;

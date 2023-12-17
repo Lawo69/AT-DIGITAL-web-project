@@ -20,10 +20,4 @@
   --black: #000;
   --white: #fff;
 };
-
-.App {
-  background-color: var(--white);
-  height: 100vh;
-  width: 100%;
-}
 /* Global CSS end */

@@ -1,12 +1,12 @@
 import React from 'react';
 import "./Home.css";
-import { CustomButton } from "../../components/button/Button";
+import { CustomButton } from "../../component/button/Button";
 
 const clickLogic = () => {
   
 };
 
-export const HeroSection = () => {
+function HeroSection() {
   return (
     // Hero Section Start
     <section className='hero-container'>
@@ -22,6 +22,7 @@ export const HeroSection = () => {
       </div>
     </section>
     // Hero Section End
-      
   );
 }
+
+export default HeroSection;

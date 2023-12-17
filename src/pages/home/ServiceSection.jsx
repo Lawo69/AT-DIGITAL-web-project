@@ -1,12 +1,12 @@
 import React from 'react'
 import './Home.css'
-import { CustomButton } from "../../components/button/Button";
+import { CustomButton } from "../../component/button/Button";
 
 const clickLogic = () => {
   
 };
 
-export const ServiceSection = () => {
+function ServiceSection() {
   return (
     <section className='service-container'>
         <div className="services">
@@ -38,3 +38,5 @@ export const ServiceSection = () => {
     </section>
   )
 }
+
+export default ServiceSection;

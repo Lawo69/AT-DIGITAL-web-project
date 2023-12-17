@@ -1,3 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    height: 324px;
+    padding: 25px 100px;
+    color: var(--white);
+    gap: 40px;
+    overflow: hidden;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -84,6 +95,7 @@ hr {
     line-height: 16.94px;
 }
 
+
 @media (max-width: 768px) {
     .row {
         flex-direction: column;
@@ -110,6 +122,15 @@ hr {
         flex-direction: column;
     }
     hr {
-        width: 100%;
+        width: auto;
+    }
+    .col-1 {
+        width: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .col-1 {
+        width: auto;
     }
 }
